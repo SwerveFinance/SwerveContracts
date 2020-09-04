@@ -58,7 +58,7 @@ YEAR: constant(uint256) = WEEK * 52
 
 # Supply parameters
 INITIAL_SUPPLY: constant(uint256) = 0
-INFLATION_DELAY: constant(uint256) = 2 * HOUR # Two Hour delay before minting may begin
+INFLATION_DELAY: constant(uint256) = 3 * HOUR # Three Hour delay before minting may begin
 RATE_DENOMINATOR: constant(uint256) = 10 ** 18
 RATE_TIME: constant(uint256) = 2 * WEEK # How often the rate goes to the next epoch
 INITIAL_RATE: constant(uint256) = 9_000_000 * 10 ** 18 / (2 * WEEK) # 9 million for the first 2 weeks
